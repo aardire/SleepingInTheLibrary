@@ -134,7 +134,7 @@ class ViewController: UIViewController {
         
         // start the task!
         task.resume()
-    }    
+    }
     private func escapedParameters(_ parameters: [String:AnyObject]) -> String {
         
         if parameters.isEmpty {
